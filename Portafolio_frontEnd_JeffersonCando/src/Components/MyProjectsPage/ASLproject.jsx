@@ -26,7 +26,7 @@ function ASLproject() {
         const jsonData = { image: base64Data };
 
         axios
-          .post("http://127.0.0.1:5000/api/upload_image", jsonData, {
+          .post("http://192.168.1.3:5000/api/upload_image", jsonData, {
             headers: {
               "Content-Type": "application/json",
             },
