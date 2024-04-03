@@ -1,0 +1,15 @@
+.asl-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.upload-button-container {
+    position: absolute;
+    bottom: 10px; /* Ajusta esta cantidad según sea necesario */
+    right: 10px; /* Ajusta esta cantidad según sea necesario */
+  }
+  
