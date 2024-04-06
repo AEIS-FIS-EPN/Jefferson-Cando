@@ -1,31 +1,27 @@
-# Jefferson Cando's Portfolio
 
-Welcome to Jefferson Cando's portfolio! Here you'll find information about me, my experiences, and my areas of focus.
+# Portfolio Overview
 
-## About Me
+Welcome to my portfolio! This portfolio showcases my skills and projects in both frontend and backend development.
 
-I am a passionate software developer with expertise in web development and a keen interest in learning new technologies. With a strong foundation in computer science and a drive for innovation, I strive to create impactful solutions that solve real-world problems.
+## Frontend
 
-## Experiences
+The frontend of this portfolio provides information about me, my experiences, and my areas of expertise. It is built using React.js and styled with CSS to create a clean and responsive user interface.
 
-- **Software Developer Intern at ABC Company**: Developed and maintained web applications using modern technologies such as React.js and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.
+## Backend
 
-- **Freelance Web Developer**: Worked with clients to design and develop custom websites tailored to their needs. Implemented responsive designs and optimized performance for enhanced user experience.
+The backend of this portfolio, built with Python, serves as the backend service accessed by the frontend to utilize the machine learning model. It handles requests from the frontend and processes data to provide insights or perform actions based on the user's interactions.
 
-## Focus Areas
+## Future Developments
 
-My focus areas include:
+For future advancements, the goal is to directly load the machine learning model into the browser or frontend. This will enhance performance and reduce reliance on backend services, providing a smoother user experience.
 
-- Frontend Development: React.js, Vue.js, HTML, CSS, JavaScript
-- Backend Development: Node.js, Express.js, Django
-- Database Management: MongoDB, MySQL, PostgreSQL
-- DevOps: Docker, Kubernetes, CI/CD pipelines
 
 ## Get Started
 
-To run the project locally, follow these steps:
+To explore the portfolio, follow these steps:
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/AEIS-FIS-EPN/Jefferson-Cando.git
    ```
@@ -63,8 +59,6 @@ For the backend, you have two options:
 
 ## Contact
 
-Feel free to reach out to me via email at jefferson@example.com or connect with me on [LinkedIn](https://www.linkedin.com/in/jefferson-cando).
+Feel free to reach out to me via email at jefferson@example.com or connect with me on [LinkedIn](www.linkedin.com/in/jefferson-cando-790a38125).
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
