@@ -1,13 +1,13 @@
 import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./Components/HomePage/Home";
 import ASLProject from "./Components/MyProjectsPage/ASLproject/ASLproject";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Routes, Route } from "react-router-dom";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import MyProjectsPage from "./Components/MyProjectsPage/MyProjects";
 import ContactPage from "./Components/ContacPage/ContactPage";
-import "./App.css"
-import Navbar from "./Navbar"
+import Navbar from "./Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Navbar />
       </div>
       <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/projects" element={<MyProjectsPage />} />
