@@ -50,7 +50,7 @@ const TrackingASL = () => {
       canvas.getContext('2d').drawImage(videoRef.current, 0, 0);
 
       const imageData = canvas.toDataURL('image/jpeg');
-      const response = await axios.post('http://192.168.1.3:5000/api/upload_video', { video: imageData });
+      const response = await axios.post('http://127.0.0.1:5000/api/upload_video', { video: imageData });
       setDetectionInfo(response.data); // Set detection info from backend response
     } catch (error) {
       console.error('Error sending video to backend:', error);
