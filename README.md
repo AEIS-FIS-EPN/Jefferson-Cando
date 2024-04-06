@@ -1,4 +1,4 @@
-markdown
+
 
 # Portfolio Overview
 
@@ -24,30 +24,22 @@ To explore the portfolio, follow these steps:
 
 git clone https://github.com/AEIS-FIS-EPN/Jefferson-Cando.git
 
-css
-
-
 2. Navigate to the cloned repository directory:
-
+```
 cd Jefferson-Cando
+```
 
-markdown
 
 
 3. Install dependencies for the frontend:
-
+```
 cd Portafolio_frontEnd_JeffersonCando
 npm install
-
-markdown
-
+```
 
 4. Run the frontend server:
 
 npm run dev
-
-less
-
 
 For the backend, you have two options:
 
@@ -74,4 +66,5 @@ For the backend, you have two options:
 
 ## Contact
 
-Feel free to reach out to me via email at jefferson@example.com or connect with me on [Linked
+
+Feel free to reach out to me via email at jefferson@example.com or connect with me on [LinkedIn](www.linkedin.com/in/jefferson-cando-790a38125).
