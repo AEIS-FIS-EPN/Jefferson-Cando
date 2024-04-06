@@ -8,7 +8,7 @@ class detectarASL:
     def loadModel(self):
         parent_dir = os.getcwd()
         print(parent_dir)
-        path_model = os.path.join(parent_dir,'resources/models','ASL_10epoch_only_letters.pt')
+        path_model = os.path.join(parent_dir,'resources/models','ASL_100epoch_only_letters.pt')
         model = YOLO(path_model)
         return model
     
@@ -23,7 +23,7 @@ class detectarASL:
 
 
     def predict(self,image_cedula):
-        results = self.model(image_cedula,conf=0.79,imgsz=640)
+        results = self.model(image_cedula,conf=0.5,imgsz=640)
         return results 
     
     def results(self):

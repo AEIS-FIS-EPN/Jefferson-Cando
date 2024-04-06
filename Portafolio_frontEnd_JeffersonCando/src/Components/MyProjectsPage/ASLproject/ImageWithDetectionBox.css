@@ -1,0 +1,14 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-wrapper {
+    position: relative;
+  }
+  .upload-button {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+  }
+  

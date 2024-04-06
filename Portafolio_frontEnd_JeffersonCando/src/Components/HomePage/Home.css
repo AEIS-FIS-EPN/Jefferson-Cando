@@ -1,47 +1,59 @@
-.home-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
-}
 
 .profile-picture-container {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
-
 .profile-picture {
-  width: 300px; 
+  width: 300px;
   height: 300px;
-  border-radius: 100%; 
-  box-shadow: 0 0 10px rgba(163, 16, 16, 0.2); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border-radius: 25%;
+  box-shadow: 0 0 10px rgba(163, 16, 16, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-picture:hover {
-  transform: scale(1.05); /* Efecto de escala al pasar el cursor */
-  box-shadow: 0 0 20px rgba(163, 16, 16, 0.5); /* Sombra más pronunciada al pasar el cursor */
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(163, 16, 16, 0.5);
 }
 
 .profile-picture:active {
-  filter: hue-rotate(90deg); /* Cambio de color al hacer clic */
-  filter: blur(5px);  /* Desenfoque al hacer clic */
+  filter: hue-rotate(90deg);
+  filter: blur(5px);
 }
 
 .profile-summary {
   text-align: center;
+  margin: 15px;
 }
 
 .description-container {
   text-align: justify;
+  font-size: 17px;
 }
 
 .projects-column {
-  flex: 1; /* Toma el 50% del ancho del contenedor padre */
-  padding: 20px;
+  flex: 1;
+  padding: 50px;
+  text-align: center;
 }
 
+.container {
+  margin: 0px; 
+}
 
-.container{
-  margin-top: 150px;
+.projects-column h2 {
+  color: inherit; 
+  transition: color 0.3s; 
+  position: relative;
+  overflow: hidden;
+}
+
+.projects-column h2:hover {
+  color: #8f94fb; 
+}
+
+.profile-summary h1:hover{
+  color: #8f94fb; 
 }

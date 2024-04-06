@@ -1,0 +1,32 @@
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .project-box {
+    border-radius: 10px;
+    overflow: hidden; 
+    width: 50%; 
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); 
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    display: block; 
+  }
+  
+  .project-description {
+    padding: 20px; 
+    background-color: #fff; 
+    background-color:rgb(0, 32, 128,0.3); 
+    color: white;
+  }
+  
+  .project-box:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* Aumenta la sombra al pasar el cursor */
+  }
+  
