@@ -39,9 +39,12 @@ npm install
 
 4. Run the frontend server:
 
+```
 npm run dev
+```
 
 For the backend, you have two options:
+
 
 - **Docker Image**: Download the Docker image from [here](https://epnecuador-my.sharepoint.com/:u:/g/personal/jefferson_cando01_epn_edu_ec/EXhFBnfl40dHracdBH2yPvYBjZswbVQtztwEPyD3jGWndA?e=Lf6elZ):
 - Load the docker image:
@@ -52,9 +55,32 @@ For the backend, you have two options:
   ```
   docker run -d -p 5000:5000 backend_portafolio:v1.0
   ```
+  
+  now you have the backend upset, other option is run with enviroments of python
 
-- **Local Setup**:
-- Create a virtual environment.
+- **Local Setup**: The backend is made with python9.3
+
+- Create a virtual environment
+If you are using linux, you can create a enviroment with the next comand
+```
+python -m venv name_env
+```
+next, activate the enviroment with:
+```
+source /name_env/bin/activate
+```
+
+If you are using windows, you can create enviroment with conda:
+```
+conda create -n nombre_entorno
+```
+next you have to activate the enviroment:
+```
+source activate -- nombre_entorno
+```
+
+After thar, you have to enter to the Portafolio_backEnd_JeffersonCando directory, here you will find the requerimentes.txt
+
 - Install required dependencies:
   ```
   pip install -r requirements.txt
@@ -67,4 +93,4 @@ For the backend, you have two options:
 ## Contact
 
 
-Feel free to reach out to me via email at jefferson@example.com or connect with me on [LinkedIn](www.linkedin.com/in/jefferson-cando-790a38125).
+Feel free to reach out to me via email at jefferson.cando01@epn.edu.ec or connect with me on [LinkedIn](www.linkedin.com/in/jefferson-cando-790a38125).
