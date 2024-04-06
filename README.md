@@ -47,6 +47,9 @@ For the backend, you have two options:
 
 
 - **Docker Image**: Download the Docker image from [here](https://epnecuador-my.sharepoint.com/:u:/g/personal/jefferson_cando01_epn_edu_ec/EXhFBnfl40dHracdBH2yPvYBjZswbVQtztwEPyD3jGWndA?e=Lf6elZ):
+
+when the dowload finish, go to the folder where the docker image is, and run the next comands
+in linux, may you have to use sudo.
 - Load the docker image:
   ```
   docker load -i backend_portafolio_v1_0.tar
